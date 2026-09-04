@@ -65,3 +65,6 @@ par(mfrow=c(2,1))
 
 plot(Asales.ts,ylab=("Sales(1995-2001)"),ylim=c(1660,105000))
 plot(Bsales.ts,ylab=("Sales(1997-1999)"),ylim=c(1660,105000))
+
+
+###During my predictive analytics class, I just wanted it to be done! So I kept asking my professor; "R we there yet?, R we finished."?
