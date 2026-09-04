@@ -1,6 +1,6 @@
 library(forecast)
 library(zoo)
-###QUESTION 1###
+###QUESTION 1### ***SEE BOTTOM FOR JOKE***
 
 ###READ THE FILE
 Appliance.data<-read.csv("C:/Users/josep/Documents/ODU Spring 2026/PREDICTIVE ANALYTICS/HW1 Files/ApplianceShipments.csv")
@@ -111,4 +111,6 @@ lines(train.sales.poly.season.pred$fitted,col="red",lwd=2)
 lines(train.sales.poly.season.pred$mean,col="red",lwd=2,lty=2)
 accuracy(train.sales.poly.season.pred,valid.sales.ts)
 
+###WHAT DO YOU CALL A COW WITH NO LEGS?
+###GROUND BEEF!!!
 
